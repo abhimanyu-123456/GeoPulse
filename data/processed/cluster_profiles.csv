@@ -1,0 +1,6 @@
+Cluster,Device_Count,Average_Distance_KM,Average_Speed_KMH,Average_Maximum_Speed_KMH,Average_Observations,Average_Interval_Minutes,Average_High_Speed_Anomaly_Rate
+0,241,38.086,2.659,9.246,6.423,1240.431,0.0
+1,78,0.101,0.594,0.594,1.051,209.721,0.0
+2,1081,30.631,0.704,1.751,5.617,1510.715,0.0
+3,75,43.912,15.468,86.048,7.147,1226.78,0.2
+4,519,13.778,0.174,0.247,3.395,2874.137,0.0
