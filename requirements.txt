@@ -1,6 +1,11 @@
-pandas
+﻿pandas
 numpy
 matplotlib
-jupyter
+geopy
+scikit-learn
+scipy
+joblib
+threadpoolctl
 pytest
+jupyter
 python-dotenv
