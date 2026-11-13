@@ -9,3 +9,4 @@ threadpoolctl
 pytest
 jupyter
 python-dotenv
+streamlit
