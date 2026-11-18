@@ -126,3 +126,31 @@ The dashboard is deployed using Streamlit Community Cloud.
 ### Data Limitations
 
 This project uses synthetic GPS observations for educational and analytical purposes. The clustering results represent mathematical groupings and should not be interpreted as verified real-world transportation categories or individual behaviour.
+
+## Project Workflow
+
+The GeoPulse system follows a structured data analytics workflow:
+
+1. GPS data preparation and preprocessing.
+2. Movement distance and speed calculation.
+3. Movement pattern classification.
+4. Device-level feature extraction.
+5. Machine-learning clustering.
+6. Cluster interpretation and model evaluation.
+7. Analytics report generation.
+8. Interactive dashboard development.
+9. Dashboard deployment using Streamlit Community Cloud.
+
+## Future Improvements
+
+Potential future enhancements include:
+
+- Additional clustering algorithms.
+- Improved model comparison and evaluation.
+- More interactive data visualizations.
+- Enhanced dashboard reporting.
+- Better handling of missing and invalid observations.
+
+## Project Conclusion
+
+GeoPulse demonstrates how Python, data analytics, and machine learning can be combined to analyze synthetic GPS observations and present meaningful analytical summaries through an interactive web dashboard.
