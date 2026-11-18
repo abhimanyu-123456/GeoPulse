@@ -86,3 +86,19 @@ GeoPulse is distributed under the GNU General Public License v3.0.
 
 See the LICENSE file for the complete license terms.
 :::
+
+## Live Dashboard
+
+GeoPulse is deployed using Streamlit Community Cloud.
+
+**Live Application:** https://geopulse-dashboard-abhi.streamlit.app
+
+The interactive dashboard provides:
+- GPS analytics KPIs
+- Device-level movement summaries
+- Movement category analysis
+- Device and cluster filters
+- Interactive visualizations
+- Clustering evaluation
+
+**Note:** GeoPulse uses synthetic GPS data and is intended for educational and analytical demonstration.
