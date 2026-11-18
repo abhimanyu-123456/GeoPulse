@@ -102,3 +102,27 @@ The interactive dashboard provides:
 - Clustering evaluation
 
 **Note:** GeoPulse uses synthetic GPS data and is intended for educational and analytical demonstration.
+
+
+## Live Dashboard
+
+GeoPulse includes an interactive dashboard developed using Streamlit and Plotly.
+
+The dashboard provides:
+
+- GPS dataset overview and key performance indicators.
+- Device-level movement analytics.
+- Cluster distribution visualizations.
+- Average speed and distance analysis.
+- Interactive filters for cluster, device, movement category, and date range.
+- Machine-learning clustering evaluation metrics.
+
+### Deployment
+
+The dashboard is deployed using Streamlit Community Cloud.
+
+**Live Application:** https://geopulse-dashboard-abhi.streamlit.app/
+
+### Data Limitations
+
+This project uses synthetic GPS observations for educational and analytical purposes. The clustering results represent mathematical groupings and should not be interpreted as verified real-world transportation categories or individual behaviour.
