@@ -5,6 +5,7 @@ GeoPulse - GPS-Based Movement Analytics System
 Interactive analytics dashboard using Streamlit.
 """
 
+from plotly import data
 import streamlit as st
 
 # Import dashboard modules consistently.
@@ -17,7 +18,7 @@ from utils.data_loader import (
 from components.metrics import display_metrics
 from components.charts import display_charts
 from components.filters import apply_filters
-
+from components.data_quality import display_data_quality
 
 # ==================================================
 # PAGE CONFIGURATION
@@ -118,6 +119,11 @@ def main():
     display_charts(filtered_data)
 
     st.divider()
+
+    st.divider()
+
+# DATA QUALITY AND VALIDATION
+    display_data_quality(data)
 
     # ----------------------------------------------
     # DEVICE SUMMARY TABLE
